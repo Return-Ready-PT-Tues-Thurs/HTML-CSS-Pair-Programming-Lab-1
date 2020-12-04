@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
     <title>My Website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>My Website</header>
-    <main>    
-       
-        <aside class="primary-content">
-            <img alt="picture of the golden gate bridge" src="images/goldengate-blog.gif" width="150" height="150" >
-            <h1>This is a Lorem Ipsum Heading</h1>
-            <p>Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.
-            <a id="link" href="Read More">Read More</a></p><br>
-        </aside>
-        
-        <aside class="secondary-content">
+    <main>
+        <div class="row">  
+            <div class="column">
+            <aside class="primary-content">
+                <img
+                alt="picture of the golden gate bridge"
+                src="images/goldengate-blog.gif"
+                width="150"
+                height="150"
+                />
+                <h1>This is a Lorem Ipsum Heading</h1>
+                <p>
+                 Sed non mauris vitae erat consequat auctor eu in elit. Class aptent
+                 taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                 himenaeos. Mauris in erat justo.
+                <a id="link" href="Read More">Read More</a>
+                </p>
+                <br />
+            </aside>
+            </div>
+            <div class="column">
+            <aside class="secondary-content">
             <h2>Sidebar Links</h2>
             <ul>
                 <li><a id="link" href="Link 1">Link 1</a></li>
@@ -25,15 +37,22 @@
                 <li><a id="link" href="Link 3">Link 3</a></li>
                 <li><a id="link" href="Link 4">Link 4</a></li>
             </ul>
-        </aside>
-
-        <aside class="secondary-content">
+            </aside>
+            </div>
+            <div class="column"></div>
+            <aside class="secondary-content">
             <h2>Other Widgets</h2>
-            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean solicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p><br>
+            <p>
+          This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+          velit auctor aliquet. Aenean solicitudin, lorem quis bibendum auctor,
+          nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+            </p>
+            <br />
             <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
         </aside>
-    
+        </div>
+        </div>
     </main>
     <footer>&copy; All Rights Reserved</footer>
-</body>
+  </body>
 </html>
