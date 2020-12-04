@@ -1,4 +1,25 @@
-.img {
-    width: 25%; 
-    height: 25%;
+
+body {
+    font-family: arial;
 }
+
+header {
+    font-size: 50px;
+    background-color: darkslategrey;
+    color: rgb(243, 145, 17);
+    padding: 20px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: darkslategrey;
+    color: white;
+    padding: 15px;
+}
+
+/* Hyperlink attributes------------*/
+#link {
+    color:rgb(243, 145, 17);
+}
+/* Floated Columns ----------------*/
