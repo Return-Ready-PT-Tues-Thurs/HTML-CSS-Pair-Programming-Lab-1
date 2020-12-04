@@ -6,11 +6,11 @@
 header {
 	text-align: left;
 	background: #333333;
-    color: orange;
-    width: 100%;
+  color: orange;
+  width: 100%;
 	overflow: hidden;
 	padding-top: 5px;
-    padding-left: 20px;
+  padding-left: 20px;
   }
 
 body {
@@ -26,26 +26,36 @@ body {
 footer {
 	text-align: center;
 	background: #333333;
-    color:#d9d9d9;
-    width: 100%;
+  color:#d9d9d9;
+  width: 100%;
 	overflow: hidden;
 	padding-top: 5px;
-    padding-left: 20px;
-  }
+  padding-left: 20px;
+}
+
 
 /* Link Styles */
-a:link {
-  color: orange;
-   text-decoration: none;
+ul {
+  list-style: none;
 }
-        ul {
-            list-style: none;
-            }
 
+li {
+    color: orange;
+    text-decoration: none;
+}
+  
+img {
+  padding-top: 30px;
+  padding-left: 20px;
+}
 
-/* Styles for larger screens */
-  @media screen and (min-width: 720px) {
+/* Substring Matching Attribute Selectors ----*/
 
+p[Copyright^="YourSite"] {
+  color: orange;
+}
 
+/* Styles for larger screens ----*/
+@media screen and (min-width: 720px) {
 
-  }
+}
