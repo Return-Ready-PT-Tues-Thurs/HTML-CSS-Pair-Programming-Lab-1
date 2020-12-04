@@ -1,0 +1,51 @@
+/* Global Layout Set-up */
+* {
+	box-sizing: border-box
+}
+
+header {
+	text-align: left;
+	background: #333333;
+    color: orange;
+    width: 100%;
+	overflow: hidden;
+	padding-top: 5px;
+    padding-left: 20px;
+  }
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Roboto, sans-serif;
+	color: #222;
+	background: #fff
+}
+
+
+footer {
+	text-align: center;
+	background: #333333;
+    color:#d9d9d9;
+    width: 100%;
+	overflow: hidden;
+	padding-top: 5px;
+    padding-left: 20px;
+  }
+
+/* Link Styles */
+a:link {
+  color: orange;
+   text-decoration: none;
+}
+        ul {
+            list-style: none;
+            }
+
+
+/* Styles for larger screens */
+  @media screen and (min-width: 720px) {
+
+
+
+  }
