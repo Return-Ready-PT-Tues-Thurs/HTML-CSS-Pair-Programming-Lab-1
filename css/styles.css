@@ -6,11 +6,11 @@
 header {
 	text-align: left;
 	background: #333333;
-  color: orange;
-  width: 100%;
+  	color: orange;
+  	width: 100%;
 	overflow: hidden;
 	padding-top: 5px;
-  padding-left: 20px;
+  	padding-left: 20px;
   }
 
 body {
