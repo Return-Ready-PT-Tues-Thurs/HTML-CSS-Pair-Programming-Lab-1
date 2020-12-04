@@ -16,25 +16,57 @@ header {
 body {
 	margin: 0;
 	padding: 0;
-	text-align: center;
+	text-align: left;
 	font-family: Roboto, sans-serif;
 	color: #222;
 	background: #fff
 }
 
 
-footer {
-	text-align: center;
-	background: #333333;
-  color:#d9d9d9;
-  width: 100%;
-	overflow: hidden;
+
+h2 {
+	text-align: left;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	width: 70%;
+}
+.container1{
+	text-align: left;
 	padding-top: 5px;
-  padding-left: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	width: 70%;
+}
+.container2{
+	float:right;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	width: 30%;
 }
 
 
+.textcolor {
+	color: orange;
+}
+
+footer {
+	text-align: center;
+	background: #333333;
+	color:#d9d9d9;
+	width: 100%;
+	overflow: hidden;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+
+
+
 /* Link Styles */
+
+
 ul {
   list-style: none;
 }
@@ -45,15 +77,17 @@ li {
 }
   
 img {
-  padding-top: 30px;
-  padding-left: 20px;
+	float: left;
+  	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
+
+
 
 /* Substring Matching Attribute Selectors ----*/
 
-p[Copyright^="YourSite"] {
-  color: orange;
-}
+
 
 /* Styles for larger screens ----*/
 @media screen and (min-width: 720px) {
