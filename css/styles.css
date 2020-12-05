@@ -33,24 +33,36 @@ h2 {
 	width: 70%;
 }
 
-
 .container1{
 	text-align: left;
 	padding-top: 5px;
 	padding-bottom: 10px;
 	padding-left: 20px;
-	width: 70%;
+	width: 60%;
 }
-.container2{
+div.container2{
 	float:right;
 	text-align: left;
+	background-color: grey;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 20px;
+	margin: 0;
 	width: 30%;
 }
 
-
+.box {
+	float: left;
+	width: 60%;
+	padding: 50px;
+  }
+  
+  .clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  
 .textcolor {
 	color: orange;
 }
