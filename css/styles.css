@@ -1,18 +1,20 @@
 /* Global Layout Set-up */
 * {
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box
 }
 
 header {
 	text-align: left;
-	background: #333333;
-  	color: orange;
+	background: #323232;
+  	color: #e9863e;
   	width: 100%;
 	overflow: hidden;
 	padding-top: 5px;
-	  padding-left: 20px;
-	  padding-bottom: 5px;
-  }
+	padding-left: 20px;
+	padding-bottom: 30px;
+}
 
 body {
 	margin: 0;
@@ -23,86 +25,116 @@ body {
 	background: #fff
 }
 
-
-
-h2 {
-	text-align: left;
-	padding-top: 20px;
-	padding-bottom: 5px;
-	padding-left: 20px;
-	width: 70%;
+main {
+	/* width: 90vw;  -- Keep For later */
+	margin: 0 auto;
+	padding: 0px 0px;
+	min-height: calc(100vh - 89.88px - 55px);
 }
 
-.container1{
-	text-align: left;
-	padding-top: 5px;
-	padding-bottom: 10px;
-	padding-left: 20px;
-	width: 60%;
-}
-div.container2{
-	float:right;
-	text-align: left;
-	background-color: grey;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 20px;
-	margin: 0;
-	width: 30%;
-}
-
-.box {
+.box1 {
 	float: left;
-	width: 60%;
-	padding: 50px;
+	width: 70%;
+	padding: 30px;
   }
-  
-  .clearfix::after {
+
+.box2 {
+	float: right;
+	width: 30%;
+	margin: 0;
+	margin-right: 0 auto;
+	background-color: #e5e5e5;
+	min-height: calc(100vh - 89.88px - 55px);
+}
+
+.box3 {
+	float: left;
+	width: 70%;
+	padding: 30px;
+	min-height: calc(100vh - 89.88px - 238.81px - 55px);
+}
+
+.clearfix::after {
 	content: "";
 	clear: both;
 	display: table;
-  }
+}
   
 .textcolor {
 	color: orange;
 }
 
+.textcolor2 {
+	color: rgb(85, 85, 85);
+}
+
+.textcolor3 {
+	color: lightgray;
+}
+
 footer {
 	text-align: center;
-	background: #333333;
-	color:#d9d9d9;
+	background: #323232;
+	color:#e9863e;
 	width: 100%;
 	overflow: hidden;
-	padding-top: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	padding-left: 20px;
 }
 
-
-
 /* Link Styles */
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	padding-top: 35px;
+}
+
+h2 {
+	text-align: left;
+	
+	padding-top: 0px;
+	padding-bottom: 5px;
+}
+
+.box2 h3 {
+	text-align: left;
+	margin: 20px;
+}
 
 
 ul {
   list-style: none;
+  padding-top: 10px;
 }
 
 li {
     color: orange;
-    text-decoration: none;
+	text-decoration: none;
+	padding: 5px;
+	padding-top: 5px;
+	padding-left: 35px;
 }
   
 img {
 	float: left;
-  	padding-top: 20px;
-	padding-left: 20px;
+	margin: 0;
+  	padding-top: 5px;
+	padding-left: 10px;
 	padding-right: 20px;
 }
 
+hr {
+	border-top: 1px solid lightgray;
 
+}
 
-/* Substring Matching Attribute Selectors ----*/
-
-
+.space {
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
 
 /* Styles for larger screens ----*/
 @media screen and (min-width: 720px) {
