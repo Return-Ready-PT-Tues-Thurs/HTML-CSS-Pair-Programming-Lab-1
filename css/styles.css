@@ -1,0 +1,142 @@
+/* Global Layout Set-up */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+
+header {
+	text-align: left;
+	background: #323232;
+  	color: #e9863e;
+  	width: 100%;
+	overflow: hidden;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-bottom: 30px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-family: Roboto, sans-serif;
+	color: #222;
+	background: #fff
+}
+
+main {
+	/* width: 90vw;  -- Keep For later */
+	margin: 0 auto;
+	padding: 0px 0px;
+	min-height: calc(100vh - 89.88px - 55px);
+}
+
+.box1 {
+	float: left;
+	width: 70%;
+	padding: 30px;
+  }
+
+.box2 {
+	float: right;
+	width: 30%;
+	margin: 0;
+	margin-right: 0 auto;
+	background-color: #e5e5e5;
+	min-height: calc(100vh - 89.88px - 55px);
+}
+
+.box3 {
+	float: left;
+	width: 70%;
+	padding: 30px;
+	min-height: calc(100vh - 89.88px - 238.81px - 55px);
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+  
+.textcolor {
+	color: orange;
+}
+
+.textcolor2 {
+	color: rgb(85, 85, 85);
+}
+
+.textcolor3 {
+	color: lightgray;
+}
+
+footer {
+	text-align: center;
+	background: #323232;
+	color:#e9863e;
+	width: 100%;
+	overflow: hidden;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+/* Link Styles */
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	padding-top: 35px;
+}
+
+h2 {
+	text-align: left;
+	
+	padding-top: 0px;
+	padding-bottom: 5px;
+}
+
+.box2 h3 {
+	text-align: left;
+	margin: 20px;
+}
+
+
+ul {
+  list-style: none;
+  padding-top: 10px;
+}
+
+li {
+    color: orange;
+	text-decoration: none;
+	padding: 5px;
+	padding-top: 5px;
+	padding-left: 35px;
+}
+  
+img {
+	float: left;
+	margin: 0;
+  	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+hr {
+	border-top: 1px solid lightgray;
+
+}
+
+.space {
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+/* Styles for larger screens ----*/
+@media screen and (min-width: 720px) {
+
+}
